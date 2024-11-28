@@ -56,7 +56,7 @@ How can you add your tool? via a pull request, if you dont know what that is, re
   
 - [partialLDSC](https://github.com/GEMINI-multimorbidity/partialLDSC) is an R-package to estimate partial genetic correlations from GWAS summary statistics, and compare them to their unadjusted counterparts, to quantify the contribution of a given confounder in explaining genetic similarity between conditions.
 
-**these tools also give you the % of SNPs that is pleiotropic: **
+**these tools also give you the % of SNPs that is pleiotropic:**
 
 - [bivarite MiXeR](https://github.com/precimed/mixer) Bivariate causal mixture model (MiXeR) is a tool designed to estimate the degree of genetic overlap and shared causal variants between two traits.
 - [trivariate MiXeR](https://github.com/precimed/mix3r) Trivariate causal mixture model (MiXeR) is a tool designed to estimate the degree of genetic overlap and shared causal variants between three traits.
