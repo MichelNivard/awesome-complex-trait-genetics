@@ -77,6 +77,10 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 - [CAUSE](https://github.com/jean997/cause) an MR method, Causal Analysis Using Summary Effect Estimates (CAUSE), that accounts for correlated and uncorrelated horizontal pleiotropic effects. 
 - [LCV](https://github.com/lukejoconnor/LCV) LCV is an LD score based method for inferring genetically causal relationships using GWAS data.
 
+### Mendelian randomization in _cis_
+
+- [MR-link-2](https://github.com/adriaan-vd-graaf/mrlink2) _cis_ Mendelian randomization that is more robust to violations of the pleiotropy assumption from a single region
+
 ## Colocalisation/finemapping of causal variants
 
 - [coloc](https://github.com/chr1swallace/coloc) R package to perform genetic colocalisation analysis, test whether two related phenotypes share common genetic causal variant(s) in a given region.
@@ -90,7 +94,6 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 
 - [FUSION](https://github.com/gusevlab/fusion_twas) FUSION is a suite of tools for performing transcriptome-wide and regulome-wide association studies (TWAS and RWAS). 
 - [FOCUS](https://github.com/mancusolab/ma-focus) FOCUS (Fine-mapping Of CaUsal gene Sets) is software to fine-map transcriptome-wide association study statistics at genomic risk regions
-
 
 
 ## Simulation
