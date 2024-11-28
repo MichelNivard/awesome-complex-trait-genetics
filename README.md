@@ -50,6 +50,7 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 - [GUIDE](https://github.com/daniel-lazarev/GUIDE) Genetic Unmixing by Independent Decomposition (GUIDE), uses ICA to estimate statistically independent latent factors that best express the patterns of association across many traits.
 - [FactorGO](https://github.com/mancusolab/FactorGo) FactorGo is a scalable variational factor analysis model that learns pleiotropic factors using GWAS summary statistics!
 - [GNA](https://github.com/GenomicNetworkAnalysis/GNA) GNA is an R package for performing network analysis of genetic overlap derived from GWAS summary statistics
+- [partialLDSC](https://github.com/GEMINI-multimorbidity/partialLDSC) is an R-package to estimate partial genetic correlations from GWAS summary statistics, and compare them to their unadjusted counterparts, to quantify the contribution of a given confounder in explaining genetic similarity between conditions.
 
 **Raw data based:**
 
