@@ -96,6 +96,4 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 - [gwasRtools](https://github.com/lcpilling/gwasRtools) R package to (1) identify loci and independent lead SNPs (using online or local reference panel) and (2) annotate variants with nearest gene from GENCODE database.
 
 
-## RAW data/PRS based methods
-
 
