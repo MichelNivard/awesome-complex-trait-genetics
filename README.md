@@ -24,7 +24,9 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 - [i-LDSC](https://github.com/lcrawlab/i-LDSC)   interaction-LD score (i-LDSC) regression: Model an additional score that measures the amount of non-additive genetic variation that is tagged by each variant in the data.
 - [ACLR](https://github.com/arminschoech/ACLR) Autocorrelation LD regression: a tool to efficiently estimate the autocorrelation of latent effects in large genetic data sets. (WARNING Python 2.7 code)
 - [HAMSTA](https://github.com/tszfungc/hamsta) HAMSTA is a python package that estimate heritability explained by local ancestry using summary statistics from admixture mapping studies.
-- [MAGMA](https://cncr.nl/research/magma/) MAGMA: Generalized gene-set analysis of GWAS data. 
+- [MAGMA](https://cncr.nl/research/magma/) MAGMA: Generalized gene-set analysis of GWAS data.
+- [MiXeR](https://github.com/precimed/mixer) Causal mixture model (MiXeR) is a tool designed to estimate the polygenic architecture of a single trait, including the total number of causal variants and the distribution of their effect sizes.
+
 
 
 ## Genetic correlation (LD score derivatives/extensions)
@@ -51,6 +53,11 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 - [FactorGO](https://github.com/mancusolab/FactorGo) FactorGo is a scalable variational factor analysis model that learns pleiotropic factors using GWAS summary statistics!
 - [GNA](https://github.com/GenomicNetworkAnalysis/GNA) GNA is an R package for performing network analysis of genetic overlap derived from GWAS summary statistics
 - [partialLDSC](https://github.com/GEMINI-multimorbidity/partialLDSC) is an R-package to estimate partial genetic correlations from GWAS summary statistics, and compare them to their unadjusted counterparts, to quantify the contribution of a given confounder in explaining genetic similarity between conditions.
+
+these tools also give you the % of SNPs that is pleiotropic: 
+- [bivarite MiXeR](https://github.com/precimed/mixer) Bivariate causal mixture model (MiXeR) is a tool designed to estimate the degree of genetic overlap and shared causal variants between two traits.
+- [trivariate MiXeR](https://github.com/precimed/mix3r) Trivariate causal mixture model (MiXeR) is a tool designed to estimate the degree of genetic overlap and shared causal variants between three traits.
+
 
 **Raw data based:**
 
