@@ -42,7 +42,7 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 
 - [s-ldxr](https://github.com/huwenboshi/s-ldxr) S-LDXR is a method to stratify squared trans-ethnic genetic correlation by genomic annotations from GWAS summary statistics.
 
-## Model trait relationships
+## Model trait relationships beyond correlation
 
 ### Genetic SEM/Factor models
 
@@ -52,9 +52,12 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 - [GUIDE](https://github.com/daniel-lazarev/GUIDE) Genetic Unmixing by Independent Decomposition (GUIDE), uses ICA to estimate statistically independent latent factors that best express the patterns of association across many traits.
 - [FactorGO](https://github.com/mancusolab/FactorGo) FactorGo is a scalable variational factor analysis model that learns pleiotropic factors using GWAS summary statistics!
 - [GNA](https://github.com/GenomicNetworkAnalysis/GNA) GNA is an R package for performing network analysis of genetic overlap derived from GWAS summary statistics
+
+  
 - [partialLDSC](https://github.com/GEMINI-multimorbidity/partialLDSC) is an R-package to estimate partial genetic correlations from GWAS summary statistics, and compare them to their unadjusted counterparts, to quantify the contribution of a given confounder in explaining genetic similarity between conditions.
 
-these tools also give you the % of SNPs that is pleiotropic: 
+**these tools also give you the % of SNPs that is pleiotropic: **
+
 - [bivarite MiXeR](https://github.com/precimed/mixer) Bivariate causal mixture model (MiXeR) is a tool designed to estimate the degree of genetic overlap and shared causal variants between two traits.
 - [trivariate MiXeR](https://github.com/precimed/mix3r) Trivariate causal mixture model (MiXeR) is a tool designed to estimate the degree of genetic overlap and shared causal variants between three traits.
 
