@@ -14,6 +14,7 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 **Sumstats based:**
 
 - [LDSC](https://github.com/bulik/ldsc) ldsc is a python command line tool for estimating heritability and genetic correlation from GWAS summary statistics. ldsc also computes LD Scores. A [Python3 port](https://github.com/belowlab/ldsc) is available.
+- [GCTB](https://cnsgenomics.com/software/gctb/#Overview) GCTB is a software tool that comprises a family of Bayesian linear mixed models for complex trait analyses using genome-wide SNPs. It was developed to simultaneously estimate the joint effects of all SNPs and the genetic architecture parameters for a complex trait. There are now extensions to estimate the same bayesian linear model parameters based on summary data. 
 
 **Raw data based:**
 
@@ -108,5 +109,9 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 - [MungeSumstats](https://github.com/Al-Murphy/MungeSumstats) R package designed to facilitate the standardisation of GWAS summary statistics.
 - [gwasRtools](https://github.com/lcpilling/gwasRtools) R package to (1) identify loci and independent lead SNPs (using online or local reference panel) and (2) annotate variants with nearest gene from GENCODE database.
 
+## Polygenic scores
 
+- [PRSice](https://choishingwan.github.io/PRSice/) PRSice (pronounced 'precise') is a Polygenic Risk Score software for calculating, applying, evaluating and plotting the results of polygenic risk scores (PRS) analyses.
+- [LDpred2](https://privefl.github.io/bigsnpr/articles/LDpred2.html) LDpred-2 is one of the dedicated PRS programs which is an R package that uses a Bayesian approach to polygenic risk scoring.
+- [GCTB](https://cnsgenomics.com/software/gctb/#Overview) GCTB is a software tool that comprises a family of Bayesian linear mixed models for complex trait analyses using genome-wide SNPs. It was developed to simultaneously estimate the joint effects of all SNPs and the genetic architecture parameters for a complex trait.
 
