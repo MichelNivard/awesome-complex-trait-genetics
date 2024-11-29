@@ -137,3 +137,10 @@ How can you add your tool? via a pull request, if you dont know what that is, re
   
 - [GCTB](https://cnsgenomics.com/software/gctb/#Overview) GCTB is a software tool that comprises a family of Bayesian linear mixed models for complex trait analyses using genome-wide SNPs. It was developed to simultaneously estimate the joint effects of all SNPs and the genetic architecture parameters for a complex trait.
 
+
+## Summary statistics perositories
+
+- [ieugwasr](https://github.com/MRCIEU/ieugwasr) The OpenGWAS database comprises over 50,000 curated, QC'd and harmonised complete GWAS summary datasets and can be queried using an API. See here for documentation on the API itself. This R package is a wrapper to make generic calls to the API.
+- [GWAScatalog API](https://www.ebi.ac.uk/gwas/summary-statistics/docs/) As of 2024-11-20, the GWAS Catalog contains 7083 publications, 692444 top associations and 96947 full summary statistics.
+GWAS Catalog data is currently mapped to Genome Assembly GRCh38.p14 and dbSNP Build 156.
+
