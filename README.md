@@ -14,6 +14,7 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 **Sumstats based:**
 
 - [LDSC](https://github.com/bulik/ldsc) ldsc is a python command line tool for estimating heritability and genetic correlation from GWAS summary statistics. ldsc also computes LD Scores. A [Python3 port](https://github.com/belowlab/ldsc) is available.
+  
 - [GCTB](https://cnsgenomics.com/software/gctb/#Overview) GCTB is a software tool that comprises a family of Bayesian linear mixed models for complex trait analyses using genome-wide SNPs. It was developed to simultaneously estimate the joint effects of all SNPs and the genetic architecture parameters for a complex trait. There are now extensions to estimate the same bayesian linear model parameters based on summary data. 
 
 **Raw data based:**
@@ -23,9 +24,13 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 ### Univariate models (heritability/poligenicity/stratified/geneset enrichment etc)
 
 - [i-LDSC](https://github.com/lcrawlab/i-LDSC)   interaction-LD score (i-LDSC) regression: Model an additional score that measures the amount of non-additive genetic variation that is tagged by each variant in the data.
+  
 - [ACLR](https://github.com/arminschoech/ACLR) Autocorrelation LD regression: a tool to efficiently estimate the autocorrelation of latent effects in large genetic data sets. (WARNING Python 2.7 code)
+  
 - [HAMSTA](https://github.com/tszfungc/hamsta) HAMSTA is a python package that estimate heritability explained by local ancestry using summary statistics from admixture mapping studies.
+  
 - [MAGMA](https://cncr.nl/research/magma/) MAGMA: Generalized gene-set analysis of GWAS data.
+  
 - [MiXeR](https://github.com/precimed/mixer) Causal mixture model (MiXeR) is a tool designed to estimate the polygenic architecture of a single trait, including the total number of causal variants and the distribution of their effect sizes.
 
 
@@ -50,8 +55,11 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 **sumstat based:**
 
 - [GenomicSEM](https://github.com/GenomicSEM/GenomicSEM) R package for Genomic Structural Equation Models. user defined models of the relation between complex traits based on GWAS summary data.
+  
 - [GUIDE](https://github.com/daniel-lazarev/GUIDE) Genetic Unmixing by Independent Decomposition (GUIDE), uses ICA to estimate statistically independent latent factors that best express the patterns of association across many traits.
+  
 - [FactorGO](https://github.com/mancusolab/FactorGo) FactorGo is a scalable variational factor analysis model that learns pleiotropic factors using GWAS summary statistics!
+  
 - [GNA](https://github.com/GenomicNetworkAnalysis/GNA) GNA is an R package for performing network analysis of genetic overlap derived from GWAS summary statistics
 
   
@@ -60,6 +68,7 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 **these tools also give you the % of SNPs that is pleiotropic:**
 
 - [bivarite MiXeR](https://github.com/precimed/mixer) Bivariate causal mixture model (MiXeR) is a tool designed to estimate the degree of genetic overlap and shared causal variants between two traits.
+  
 - [trivariate MiXeR](https://github.com/precimed/mix3r) Trivariate causal mixture model (MiXeR) is a tool designed to estimate the degree of genetic overlap and shared causal variants between three traits.
 
 
@@ -85,15 +94,21 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 ## Colocalisation/finemapping of causal variants
 
 - [coloc](https://github.com/chr1swallace/coloc) R package to perform genetic colocalisation analysis, test whether two related phenotypes share common genetic causal variant(s) in a given region.
+  
 - [fastENLOC](https://github.com/xqwen/fastenloc) This repository contains the software implementation of FastENLOC, which enables integrative genetic association analysis of molecular QTL data and GWAS data.
-- [FINEMAP](http://www.christianbenner.com) FINEMAP: Efficient variable selection using summary data from genome-wide association studies. 
+  
+- [FINEMAP](http://www.christianbenner.com) FINEMAP: Efficient variable selection using summary data from genome-wide association studies.
+  
 - [polyfun](https://github.com/omerwe/polyfun) Package contains **PolyFun** for functionally-informed fine-mapping, **PolyLoc** for polygenic localization of complex trait heritability.
+  
 - [OPERA](https://github.com/wuyangf7/OPERA): (omics pleiotropic association) method tests combinatorial pleiotropic associations between multiple molecular phenotypes (eQTL, DNAm) with a complex trait using summary-level data.
+  
 - [SuSiEx](https://github.com/getian107/SuSiEx): Cross-population finemapping using summary statistics and LD reference panels.
 
 ## gene-level analysis (TWAS)
 
-- [FUSION](https://github.com/gusevlab/fusion_twas) FUSION is a suite of tools for performing transcriptome-wide and regulome-wide association studies (TWAS and RWAS). 
+- [FUSION](https://github.com/gusevlab/fusion_twas) FUSION is a suite of tools for performing transcriptome-wide and regulome-wide association studies (TWAS and RWAS).
+  
 - [FOCUS](https://github.com/mancusolab/ma-focus) FOCUS (Fine-mapping Of CaUsal gene Sets) is software to fine-map transcriptome-wide association study statistics at genomic risk regions
 
 
@@ -104,14 +119,21 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 ## Genomic data wrangling
 
 - [HAIL](https://github.com/hail-is/hail) Hail is an open-source, general-purpose, Python-based data analysis tool with additional data types and methods for working with genomic data.
+  
 - [bigsnpr](https://github.com/privefl/bigsnpr) R package for the analysis of massive SNP arrays, primarily designed for human genetics.
+  
 - [ukbrapR](https://github.com/lcpilling/ukbrapR) ukbrapR (phonetically: 'U-K-B-wrapper') is an R package for working in the UK Biobank Research Analysis Platform (RAP). The aim is to make it quicker, easier, and more reproducible.
+  
 - [MungeSumstats](https://github.com/Al-Murphy/MungeSumstats) R package designed to facilitate the standardisation of GWAS summary statistics.
+  
 - [gwasRtools](https://github.com/lcpilling/gwasRtools) R package to (1) identify loci and independent lead SNPs (using online or local reference panel) and (2) annotate variants with nearest gene from GENCODE database.
+  
 
 ## Polygenic scores
 
 - [PRSice](https://choishingwan.github.io/PRSice/) PRSice (pronounced 'precise') is a Polygenic Risk Score software for calculating, applying, evaluating and plotting the results of polygenic risk scores (PRS) analyses.
+  
 - [LDpred2](https://privefl.github.io/bigsnpr/articles/LDpred2.html) LDpred-2 is one of the dedicated PRS programs which is an R package that uses a Bayesian approach to polygenic risk scoring.
+  
 - [GCTB](https://cnsgenomics.com/software/gctb/#Overview) GCTB is a software tool that comprises a family of Bayesian linear mixed models for complex trait analyses using genome-wide SNPs. It was developed to simultaneously estimate the joint effects of all SNPs and the genetic architecture parameters for a complex trait.
 
