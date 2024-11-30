@@ -147,3 +147,5 @@ GWAS Catalog data is currently mapped to Genome Assembly GRCh38.p14 and dbSNP Bu
 
 - [GWAS atlas](https://atlas.ctglab.nl) This atlas is a database of publicly available GWAS summary statistics. Each GWAS can be browsed with the manhattan plot, risk loci, MAGMA (i.e. gene-based) results, SNP heritability and genetic correlations with other GWAS in the database.
 
+- [S4 programs](https://github.com/jpt34/S4_programs) S4 programs to calculate PRSs and evaluate them.
+
