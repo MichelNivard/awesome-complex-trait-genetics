@@ -128,6 +128,8 @@ How can you add your tool? via a pull request, if you dont know what that is, re
   
 - [gwasRtools](https://github.com/lcpilling/gwasRtools) R package to (1) identify loci and independent lead SNPs (using online or local reference panel) and (2) annotate variants with nearest gene from GENCODE database.
   
+- [qgg](https://psoerensen.github.io/qgg/) & [gact](https://psoerensen.github.io/gact/) **qgg** provides an infrastructure for efficient processing of large-scale genetic and phenotypic data while **gact** is designed for establishing and populating a comprehensive database focused on genomic associations with complex traits, provies R implementations of popular follow up analysis (LDscore regresison, MAGMA, VEGAS, PoPS, etc). 
+  
 
 ## Polygenic scores
 
