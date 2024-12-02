@@ -21,6 +21,12 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 
 - [GCTA](https://yanglab.westlake.edu.cn/software/gcta/) GCTA (Genome-wide Complex Trait Analysis) is a software package initially developed to estimate the proportion of phenotypic variance explained by all genome-wide SNPs for a complex trait.
 
+- [RHE-mc/GENIE](https://github.com/sriramlab/GENIE/tree/main) RHE-mc is a method to estimate the proportion of phenotypic variance explained by SNPs, and GENIE extends this to model GxE effects
+
+- [BOLT-LMM/BOLT-REML](https://alkesgroup.broadinstitute.org/BOLT-LMM/BOLT-LMM_manual.html) The BOLT-LMM software package currently consists of two main algorithms, the BOLT-LMM algorithm for mixed model association testing, and the BOLT-REML algorithm for variance components analysis (i.e., partitioning of SNP-heritability and estimation of genetic correlations).
+
+- [LDAK/SumHer/PCGC](https://dougspeed.com/) LDAK is a software package for analysing association study data. PCGC (phenotype-correlation genotype-correlation) Regression is an alternative to REML when estimating heritability for binary traits (i.e., diseases).
+
 ### Univariate models (heritability/poligenicity/stratified/geneset enrichment etc)
 
 - [i-LDSC](https://github.com/lcrawlab/i-LDSC)   interaction-LD score (i-LDSC) regression: Model an additional score that measures the amount of non-additive genetic variation that is tagged by each variant in the data.
