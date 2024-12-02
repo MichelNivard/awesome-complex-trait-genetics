@@ -136,7 +136,7 @@ How can you add your tool? via a pull request, if you dont know what that is, re
   
 - [qgg](https://psoerensen.github.io/qgg/) & [gact](https://psoerensen.github.io/gact/) **qgg** provides an infrastructure for efficient processing of large-scale genetic and phenotypic data while **gact** is designed for establishing and populating a comprehensive database focused on genomic associations with complex traits, provies R implementations of popular follow up analysis (LDscore regresison, MAGMA, VEGAS, PoPS, etc). 
 
-- [bcftools](https://samtools.github.io/bcftools/bcftools.html) bcftools is a tools for creating, editing, and manipulating VCF and BCF files
+- [bcftools](https://samtools.github.io/bcftools/bcftools.html) bcftools is a tool for creating, editing, and manipulating VCF and BCF files
 
 - [GenomicRanges](https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html) An R packages for working with genomic intervals
 
