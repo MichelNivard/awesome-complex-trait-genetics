@@ -129,7 +129,12 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 - [gwasRtools](https://github.com/lcpilling/gwasRtools) R package to (1) identify loci and independent lead SNPs (using online or local reference panel) and (2) annotate variants with nearest gene from GENCODE database.
   
 - [qgg](https://psoerensen.github.io/qgg/) & [gact](https://psoerensen.github.io/gact/) **qgg** provides an infrastructure for efficient processing of large-scale genetic and phenotypic data while **gact** is designed for establishing and populating a comprehensive database focused on genomic associations with complex traits, provies R implementations of popular follow up analysis (LDscore regresison, MAGMA, VEGAS, PoPS, etc). 
-  
+
+- [bcftools](https://samtools.github.io/bcftools/bcftools.html) bcftools is a tools for creating, editing, and manipulating VCF and BCF files
+
+- [GenomicRanges](https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html) An R packages for working with genomic intervals
+
+- [bedtools](https://bedtools.readthedocs.io/en/latest/) Collectively, the bedtools utilities are a swiss-army knife of tools for a wide-range of genomics analysis tasks. A very fast and easy way to intersect, merge, count, complement, and shuffle genomic intervals from multiple files in widely-used genomic file formats such as BAM, BED, GFF/GTF, VCF
 
 ## Polygenic scores
 
@@ -151,3 +156,15 @@ GWAS Catalog data is currently mapped to Genome Assembly GRCh38.p14 and dbSNP Bu
 
 - [S4 programs](https://github.com/jpt34/S4_programs) S4 programs to calculate PRSs and evaluate them.
 
+## Online tools
+
+- [gnomAD browser](https://gnomad.broadinstitute.org/) The gnomAD (genome aggregation database) browser is an online tool for querying the gnomAD and ExAC population data
+
+- [Open Targets Platform](https://platform.opentargets.org/) The Open Targets Platform is a comprehensive tool that supports systematic identification and prioritisation of potential therapeutic drug targets.
+
+- [genebass](https://app.genebass.org/) Genebass is a resource of exome-based association statistics, made available to the public. The dataset encompasses 4,529 phenotypes with gene-based and single-variant testing across 394,841 individuals with exome sequence data from the UK Biobank.
+
+- [All by All](https://allbyall.researchallofus.org/) The All by All browser maps known and novel associations between genotypes and phenotypes using data contributed by All of Us Research Program participants as of July 1, 2022. All by All encompasses about 3,400 phenotypes with gene-based and single-variant associations across nearly 250,000 whole genome sequences
+
+
+ 
