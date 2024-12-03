@@ -54,6 +54,8 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 
 - [s-ldxr](https://github.com/huwenboshi/s-ldxr) S-LDXR is a method to stratify squared trans-ethnic genetic correlation by genomic annotations from GWAS summary statistics.
 
+- [Popcorn](https://github.com/brielin/Popcorn) Popcorn is a program for estimaing the correlation of causal variant effect sizes across populations in GWAS.
+
 ## Model trait relationships beyond correlation
 
 ### Genetic SEM/Factor models
