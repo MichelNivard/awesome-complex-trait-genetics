@@ -124,6 +124,8 @@ How can you add your tool? via a pull request, if you dont know what that is, re
   
 - [FOCUS](https://github.com/mancusolab/ma-focus) FOCUS (Fine-mapping Of CaUsal gene Sets) is software to fine-map transcriptome-wide association study statistics at genomic risk regions
 
+- [cTWAS](https://github.com/xinhe-lab/ctwas) Causal-TWAS (cTWAS) jointly models genetically regulated expression and the direct effects of genetic variants on the phenotype
+
 
 ## Simulation
 
@@ -151,6 +153,8 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 
 - [bedtools](https://bedtools.readthedocs.io/en/latest/) Collectively, the bedtools utilities are a swiss-army knife of tools for a wide-range of genomics analysis tasks. A very fast and easy way to intersect, merge, count, complement, and shuffle genomic intervals from multiple files in widely-used genomic file formats such as BAM, BED, GFF/GTF, VCF
 
+- [giggle](https://github.com/ryanlayer/giggle) GIGGLE indexes several BED/VCFs to perform efficient genomic interval searches across all files in the index
+
 ## Polygenic scores
 
 - [PRSice](https://choishingwan.github.io/PRSice/) PRSice (pronounced 'precise') is a Polygenic Risk Score software for calculating, applying, evaluating and plotting the results of polygenic risk scores (PRS) analyses.
@@ -158,6 +162,10 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 - [LDpred2](https://privefl.github.io/bigsnpr/articles/LDpred2.html) LDpred-2 is one of the dedicated PRS programs which is an R package that uses a Bayesian approach to polygenic risk scoring.
   
 - [GCTB](https://cnsgenomics.com/software/gctb/#Overview) GCTB is a software tool that comprises a family of Bayesian linear mixed models for complex trait analyses using genome-wide SNPs. It was developed to simultaneously estimate the joint effects of all SNPs and the genetic architecture parameters for a complex trait.
+
+- [LDpred-funct](https://github.com/carlaml/LDpred-funct) LDpred-funct is an extension of LDpred that uses functional annotations of the SNPs to modify the prior.
+
+- [DPR](https://github.com/biostatpzeng/DPR) DPR is a Bayesian PRS method that uses a non-parametric dirichlet process prior
 
 
 ## GWAS result repositories (preferably with an API)
@@ -181,5 +189,8 @@ GWAS Catalog data is currently mapped to Genome Assembly GRCh38.p14 and dbSNP Bu
 
 - [All by All](https://allbyall.researchallofus.org/) The All by All browser maps known and novel associations between genotypes and phenotypes using data contributed by All of Us Research Program participants as of July 1, 2022. All by All encompasses about 3,400 phenotypes with gene-based and single-variant associations across nearly 250,000 whole genome sequences
 
+- [Bravo](https://bravo.sph.umich.edu/) Variant browser from the Trans-Omics for Precision Medicine (TOPMed) consortium
+
+- [Regeneron Exome browser](https://rgc-research.regeneron.com/me/home) Variant browser from Regeneron from ~983K individuals
 
  
