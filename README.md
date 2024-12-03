@@ -14,6 +14,8 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 **Sumstats based:**
 
 - [LDSC](https://github.com/bulik/ldsc) ldsc is a python command line tool for estimating heritability and genetic correlation from GWAS summary statistics. ldsc also computes LD Scores. A [Python3 port](https://github.com/belowlab/ldsc) is available.
+
+- [LDSR](https://github.com/Ararder/ldsR) LDSC implemented in R. Several quality of life features that simplifies the user interface to LDSC, and makes it dirt simple to run heritability estimates, genetic correlations and partitioned heritability from in-memory summary statistics.
   
 - [GCTB](https://cnsgenomics.com/software/gctb/#Overview) GCTB is a software tool that comprises a family of Bayesian linear mixed models for complex trait analyses using genome-wide SNPs. It was developed to simultaneously estimate the joint effects of all SNPs and the genetic architecture parameters for a complex trait. There are now extensions to estimate the same bayesian linear model parameters based on summary data. 
 
@@ -136,6 +138,8 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 - [ukbrapR](https://github.com/lcpilling/ukbrapR) ukbrapR (phonetically: 'U-K-B-wrapper') is an R package for working in the UK Biobank Research Analysis Platform (RAP). The aim is to make it quicker, easier, and more reproducible.
   
 - [MungeSumstats](https://github.com/Al-Murphy/MungeSumstats) R package designed to facilitate the standardisation of GWAS summary statistics.
+
+- [tidyGWAS](https://github.com/Ararder/tidyGWAS) R package that harmonises GWAS data, repairs/imputes missing columns, removing a minimal amount of rows.  
   
 - [gwasRtools](https://github.com/lcpilling/gwasRtools) R package to (1) identify loci and independent lead SNPs (using online or local reference panel) and (2) annotate variants with nearest gene from GENCODE database.
   
