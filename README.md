@@ -48,13 +48,15 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 
 ### Stratified/local genetic correlatons
 
-- [LAVA](https://github.com/josefin-werme/LAVA) LAVA (Local Analysis of [co]Variant Association) is a tool developed for local genetic correlation (rg) analysis.
+- [LAVA](https://github.com/josefin-werme/LAVA) `LAVA` (Local Analysis of [co]Variant Association) is a tool developed for local genetic correlation (rg) analysis.
 
 ### Ancestry aware Genetic correlations:
 
-- [s-ldxr](https://github.com/huwenboshi/s-ldxr) S-LDXR is a method to stratify squared trans-ethnic genetic correlation by genomic annotations from GWAS summary statistics.
+- [s-ldxr](https://github.com/huwenboshi/s-ldxr) `S-LDXR` is a method to stratify squared trans-ethnic genetic correlation by genomic annotations from GWAS summary statistics.
 
-- [Popcorn](https://github.com/brielin/Popcorn) Popcorn is a program for estimaing the correlation of causal variant effect sizes across populations in GWAS.
+- [Popcorn](https://github.com/brielin/Popcorn) `Popcorn` is a program for estimaing the correlation of causal variant effect sizes across populations in GWAS.
+
+- [mama](https://github.com/JonJala/mama) `mama` is a Python-based command line tool that meta-analyzes GWAS summary statistics generated from distinct ancestry groups.
 
 ## Model trait relationships beyond correlation
 
@@ -64,12 +66,11 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 
 - [GenomicSEM](https://github.com/GenomicSEM/GenomicSEM) R package for Genomic Structural Equation Models. user defined models of the relation between complex traits based on GWAS summary data.
   
-- [GUIDE](https://github.com/daniel-lazarev/GUIDE) Genetic Unmixing by Independent Decomposition (GUIDE), uses ICA to estimate statistically independent latent factors that best express the patterns of association across many traits.
+- [GUIDE](https://github.com/daniel-lazarev/GUIDE) Genetic Unmixing by Independent Decomposition (`GUIDE`), uses ICA to estimate statistically independent latent factors that best express the patterns of association across many traits.
   
 - [FactorGO](https://github.com/mancusolab/FactorGo) FactorGo is a scalable variational factor analysis model that learns pleiotropic factors using GWAS summary statistics!
   
 - [GNA](https://github.com/GenomicNetworkAnalysis/GNA) GNA is an R package for performing network analysis of genetic overlap derived from GWAS summary statistics
-
   
 - [partialLDSC](https://github.com/GEMINI-multimorbidity/partialLDSC) is an R-package to estimate partial genetic correlations from GWAS summary statistics, and compare them to their unadjusted counterparts, to quantify the contribution of a given confounder in explaining genetic similarity between conditions.
 
@@ -92,7 +93,9 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 ### MR/Genetic architecture hybrid models
 
 - [lhcMR](https://github.com/LizaDarrous/lhcMR) lhcMR is an R package that performs bi-directional causal estimation between a pair of traits, while accounting for the presence of a potential heritable confounder acting on the pair.
-- [CAUSE](https://github.com/jean997/cause) an MR method, Causal Analysis Using Summary Effect Estimates (CAUSE), that accounts for correlated and uncorrelated horizontal pleiotropic effects. 
+  
+- [CAUSE](https://github.com/jean997/cause) an MR method, Causal Analysis Using Summary Effect Estimates (CAUSE), that accounts for correlated and uncorrelated horizontal pleiotropic effects.
+  
 - [LCV](https://github.com/lukejoconnor/LCV) LCV is an LD score based method for inferring genetically causal relationships using GWAS data.
 
 ### Mendelian randomization in _cis_
