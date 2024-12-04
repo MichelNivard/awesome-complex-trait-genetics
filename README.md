@@ -173,6 +173,13 @@ How can you add your tool? via a pull request, if you dont know what that is, re
   
 - [VIPRS](https://github.com/shz9/viprs) VIPRS is a fast Bayesian PRS method that uses Variational Inference techniques to efficiently approximate the posterior for the effect sizes. The python package provides utilities for performing inference as well as computing polygenic scores and common evaluation metrics used in PRS settings.
 
+## Pharmacogenomics
+
+- [PharmCAT](https://github.com/PharmGKB/PharmCAT) Pharmacogenomics clinical annotation tool, a caller for pharmacogene alleles and their corresponding metaboliser phenotypes. Originally intended for clinical applications and single samples, but can be [scaled](https://pharmcat.org/using/Multi-Sample-Analysis/) to datasets of an arbitrary size.
+
+- [PGxPOP](https://github.com/PharmGKB/PGxPOP) Population-scale pharmacogenetic allele and phenotype caller. Allele definitions are based on a 2020 release of the [PharmVar](https://www.pharmvar.org/) database and might need updating.
+  
+- [PyPGx](https://github.com/sbslee/pypgx) Pharmacogenomic allele and phenotype caller that can be used on various genomic datasets, including next-generation sequencing (NGS), single nucleotide polymorphism (SNP) arrays, and long-read sequencing projects. It can detect and account structural variants if used on NGS data. It supports 87 [pharmacogenes](https://pypgx.readthedocs.io/en/latest/genes.html), but not all have genotype/phenotype mappings.
 
 ## GWAS result repositories (preferably with an API)
 
