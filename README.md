@@ -131,6 +131,8 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 
 - [GWASBrewer](https://github.com/jean997/GWASBrewer) A flexible tool for simulating realistic GWAS summary statistics for one, or many, traits.
 
+- [magenpy](https://github.com/shz9/magenpy): A `python`-based library that provides utilities for simulating complex traits with various genetic architectures.
+
 ## Genomic data wrangling
 
 - [HAIL](https://github.com/hail-is/hail) Hail is an open-source, general-purpose, Python-based data analysis tool with additional data types and methods for working with genomic data.
@@ -155,6 +157,8 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 
 - [giggle](https://github.com/ryanlayer/giggle) GIGGLE indexes several BED/VCFs to perform efficient genomic interval searches across all files in the index
 
+- [magenpy](https://github.com/shz9/magenpy): A `python`-based library that provides utilities for interfacing with genotype data (BED format), computing large-scale LD matrices, harmonizing various GWAS data sources (genotypes, LD, sumstats, annotations), and simulating complex traits.
+
 ## Polygenic scores
 
 - [PRSice](https://choishingwan.github.io/PRSice/) PRSice (pronounced 'precise') is a Polygenic Risk Score software for calculating, applying, evaluating and plotting the results of polygenic risk scores (PRS) analyses.
@@ -166,6 +170,8 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 - [LDpred-funct](https://github.com/carlaml/LDpred-funct) LDpred-funct is an extension of LDpred that uses functional annotations of the SNPs to modify the prior.
 
 - [DPR](https://github.com/biostatpzeng/DPR) DPR is a Bayesian PRS method that uses a non-parametric dirichlet process prior
+  
+- [VIPRS](https://github.com/shz9/viprs) VIPRS is a fast Bayesian PRS method that uses Variational Inference techniques to efficiently approximate the posterior for the effect sizes. The python package provides utilities for performing inference as well as computing polygenic scores and common evaluation metrics used in PRS settings.
 
 
 ## GWAS result repositories (preferably with an API)
