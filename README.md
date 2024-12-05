@@ -192,6 +192,9 @@ GWAS Catalog data is currently mapped to Genome Assembly GRCh38.p14 and dbSNP Bu
 
 - [S4 programs](https://github.com/jpt34/S4_programs) S4 programs to calculate PRSs and evaluate them.
 
+## Mendelian randomization result repositories 
+- [Proteome-phenome MR atlas](https://broad.io/protein_mr_atlas) Multi-ancestry atlas of protein-phenotype associations in European, African, and East Asian ancestries using MR and colocalization.
+
 ## Online tools
 
 - [gnomAD browser](https://gnomad.broadinstitute.org/) The gnomAD (genome aggregation database) browser is an online tool for querying the gnomAD and ExAC population data
