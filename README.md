@@ -109,7 +109,9 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 - [coloc](https://github.com/chr1swallace/coloc) R package to perform genetic colocalisation analysis, test whether two related phenotypes share common genetic causal variant(s) in a given region.
   
 - [fastENLOC](https://github.com/xqwen/fastenloc) This repository contains the software implementation of FastENLOC, which enables integrative genetic association analysis of molecular QTL data and GWAS data.
-  
+
+- [SharePro](https://github.com/zhwm/SharePro_coloc) This repository contains the software implementation of SharePro, which uses an effect group-level approach to integrate LD modeling and colocalization assessment to account for multiple causal variants in colocalization analysis.
+
 - [FINEMAP](http://www.christianbenner.com) FINEMAP: Efficient variable selection using summary data from genome-wide association studies.
   
 - [polyfun](https://github.com/omerwe/polyfun) Package contains **PolyFun** for functionally-informed fine-mapping, **PolyLoc** for polygenic localization of complex trait heritability.
@@ -193,7 +195,13 @@ GWAS Catalog data is currently mapped to Genome Assembly GRCh38.p14 and dbSNP Bu
 - [S4 programs](https://github.com/jpt34/S4_programs) S4 programs to calculate PRSs and evaluate them.
 
 ## Mendelian randomization result repositories 
-- [Proteome-phenome MR atlas](https://broad.io/protein_mr_atlas) Multi-ancestry atlas of protein-phenotype associations in European, African, and East Asian ancestries using MR and colocalization.
+- [Multi-ancestry Proteome-Phenome MR atlas](https://broad.io/protein_mr_atlas) Multi-ancestry atlas of protein-phenotype associations in European, African, and East Asian ancestries using MR and colocalization.
+
+- [Proteome-phenome atlas](https://proteome-phenome-atlas.com/) Atlas of protein-phenotype associations in the UK Biobank (2024).
+
+- [Proteome MR](https://www.epigraphdb.org/pqtl/) Mendelian Randomization and sensitivity analyses results for 1,545 proteins on 8 complex diseases in European and African ancestries (2022).
+  
+- [Proteome MR atlas](https://www.epigraphdb.org/pqtl/) Mendelian Randomization and sensitivity analyses results for 989 proteins and 225 traits in Europeans (2020).
 
 ## Online tools
 
