@@ -100,6 +100,8 @@ How can you add your tool? via a pull request, if you dont know what that is, re
   
 - [CAUSE](https://github.com/jean997/cause) an MR method, Causal Analysis Using Summary Effect Estimates (CAUSE), that accounts for correlated and uncorrelated horizontal pleiotropic effects.
   
+- [MR-cML](https://github.com/xue-hr/MRcML) a simple and effective approach to MR, based on constrained maximum likelihood and model averaging, called cML-MA, applicable to GWAS summary data.
+  
 - [LCV](https://github.com/lukejoconnor/LCV) LCV is an LD score based method for inferring genetically causal relationships using GWAS data.
 
 ### Mendelian randomization in _cis_
