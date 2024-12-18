@@ -91,6 +91,8 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 ### Two sample Mendelian Randomisation
 
 - [TwoSampleMR](https://github.com/MRCIEU/TwoSampleMR) An R package for performing Mendelian randomization using GWAS summary data.
+  
+- [SMR](https://yanglab.westlake.edu.cn/software/smr/#Overview)The SMR software tool was originally developed to implement the SMR & HEIDI methods to test for pleiotropic association between the expression level of a gene and a complex trait of interest using summary-level data from GWAS and expression quantitative trait loci (eQTL) studies
 
 ### MR/Genetic architecture hybrid models
 
