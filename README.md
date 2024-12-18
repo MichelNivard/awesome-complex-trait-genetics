@@ -124,6 +124,13 @@ How can you add your tool? via a pull request, if you dont know what that is, re
   
 - [SuSiEx](https://github.com/getian107/SuSiEx): Cross-population finemapping using summary statistics and LD reference panels.
 
+## HLA specific tools
+
+- [HATK](https://github.com/WansonChoi/HATK) HATK(HLA Analysis Tool-Kit) is a collection of tools and modules to perform HLA fine-mapping analysis.
+  
+- [HLA-TAPAS](https://github.com/immunogenomics/HLA-TAPAS/tree/master) HLA-TAPAS (HLA-Typing At Protein for Association Studies) is an HLA-focused pipeline that can handle HLA reference panel construction (MakeReference), HLA imputation (SNP2HLA), and HLA association (HLAassoc).
+
+
 ## gene-level analysis (TWAS)
 
 - [FUSION](https://github.com/gusevlab/fusion_twas) FUSION is a suite of tools for performing transcriptome-wide and regulome-wide association studies (TWAS and RWAS).
