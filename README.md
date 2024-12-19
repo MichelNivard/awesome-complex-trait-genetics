@@ -228,4 +228,4 @@ GWAS Catalog data is currently mapped to Genome Assembly GRCh38.p14 and dbSNP Bu
 
 - [Regeneron Exome browser](https://rgc-research.regeneron.com/me/home) Variant browser from Regeneron from ~983K individuals
 
- 
+- [Complex Traits Genetics Virtual Lab](https://vl.genoma.io/) Web platform to carry out several analyses on GWAS sumstats including LDSC, pathway and gene based analyses, Mendelian Randomization, Plots. I also contains an extensive set of publicly available GWAS sumstats as well as QTL data for colocalization-type analyses (SMR). 
