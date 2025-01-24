@@ -172,6 +172,8 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 
 - [magenpy](https://github.com/shz9/magenpy): A `python`-based library that provides utilities for interfacing with genotype data (BED format), computing large-scale LD matrices, harmonizing various GWAS data sources (genotypes, LD, sumstats, annotations), and simulating complex traits.
 
+- [sgkit](https://sgkit-dev.github.io/sgkit): Statistical genetics toolkit (population statistics, GWAS, LD, relatedness) in Python built on top of general purpose multi-dimensinoal array and distributing computing libraries (Xarray, Pandas, Zarr, Dask).
+
 ## Polygenic scores
 
 - [PRSice](https://choishingwan.github.io/PRSice/) PRSice (pronounced 'precise') is a Polygenic Risk Score software for calculating, applying, evaluating and plotting the results of polygenic risk scores (PRS) analyses.
