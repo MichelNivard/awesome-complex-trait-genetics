@@ -164,6 +164,10 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 
 - [bcftools](https://samtools.github.io/bcftools/bcftools.html) bcftools is a tool for creating, editing, and manipulating VCF and BCF files
 
+- [gwas2vcf](https://github.com/MRCIEU/gwas2vcf) Converts GWAS summary statistics to VCF.
+
+- [score](https://github.com/freeseek/score) bcftools plugins for working with GWAS-VCF summary statistics files (munging, liftover, meta-analysis, polygenic scoring, BLUP)
+
 - [GenomicRanges](https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html) An R packages for working with genomic intervals
 
 - [plyranges](https://tidyomics.github.io/plyranges/) An R package with a "tidy" grammar for `GenomicRanges`.
