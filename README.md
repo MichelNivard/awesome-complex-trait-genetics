@@ -166,6 +166,8 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 
 - [GenomicRanges](https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html) An R packages for working with genomic intervals
 
+- [plyranges](https://tidyomics.github.io/plyranges/) An R package with a "tidy" grammar for `GenomicRanges`.
+
 - [bedtools](https://bedtools.readthedocs.io/en/latest/) Collectively, the bedtools utilities are a swiss-army knife of tools for a wide-range of genomics analysis tasks. A very fast and easy way to intersect, merge, count, complement, and shuffle genomic intervals from multiple files in widely-used genomic file formats such as BAM, BED, GFF/GTF, VCF
 
 - [giggle](https://github.com/ryanlayer/giggle) GIGGLE indexes several BED/VCFs to perform efficient genomic interval searches across all files in the index
