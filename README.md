@@ -17,7 +17,8 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 
 - [LDSR](https://github.com/Ararder/ldsR) LDSC implemented in R. Several quality of life features that simplifies the user interface to LDSC, and makes it dirt simple to run heritability estimates, genetic correlations and partitioned heritability from in-memory summary statistics.
   
-- [GCTB](https://cnsgenomics.com/software/gctb/#Overview) GCTB is a software tool that comprises a family of Bayesian linear mixed models for complex trait analyses using genome-wide SNPs. It was developed to simultaneously estimate the joint effects of all SNPs and the genetic architecture parameters for a complex trait. There are now extensions to estimate the same bayesian linear model parameters based on summary data. 
+- [GCTB](https://cnsgenomics.com/software/gctb/#Overview) GCTB is a software tool that comprises a family of Bayesian linear mixed models for complex trait analyses using genome-wide SNPs. It was developed to simultaneously estimate the joint effects of all SNPs and the genetic architecture parameters for a complex trait. There are now extensions to estimate the same bayesian linear model parameters based on summary data.
+- [KGWAS](https://github.com/snap-stanford/KGWAS) Genetics discovery powered by massive multi-modal and multi-scale functional genomics knowledge graph. Novel geometric deep learning method that leverages a massive functional knowledge graph across variants and genes to improve detection power in small-cohort GWASs significantly.
 
 **Raw data based:**
 
@@ -28,6 +29,8 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 - [BOLT-LMM/BOLT-REML](https://alkesgroup.broadinstitute.org/BOLT-LMM/BOLT-LMM_manual.html) The BOLT-LMM software package currently consists of two main algorithms, the BOLT-LMM algorithm for mixed model association testing, and the BOLT-REML algorithm for variance components analysis (i.e., partitioning of SNP-heritability and estimation of genetic correlations).
 
 - [LDAK/SumHer/PCGC](https://dougspeed.com/) LDAK is a software package for analysing association study data. PCGC (phenotype-correlation genotype-correlation) Regression is an alternative to REML when estimating heritability for binary traits (i.e., diseases).
+  
+- [RICOPILI](https://github.com/Ripkelab/ricopili) RICOPILI (Rapid Imputation and COmputational PIpeLIne for GWAS) comprises commonly used software for genotype quality control, principal component analysis, imputation and association analysis. 
 
 ### Univariate models (heritability/poligenicity/stratified/geneset enrichment etc)
 
@@ -40,7 +43,6 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 - [MAGMA](https://cncr.nl/research/magma/) MAGMA: Generalized gene-set analysis of GWAS data.
   
 - [MiXeR](https://github.com/precimed/mixer) Causal mixture model (MiXeR) is a tool designed to estimate the polygenic architecture of a single trait, including the total number of causal variants and the distribution of their effect sizes.
-
 
 
 ## Genetic correlation (LD score derivatives/extensions)
@@ -116,13 +118,16 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 
 - [SharePro](https://github.com/zhwm/SharePro_coloc) This repository contains the software implementation of SharePro, which uses an effect group-level approach to integrate LD modeling and colocalization assessment to account for multiple causal variants in colocalization analysis.
 
-- [FINEMAP](http://www.christianbenner.com) FINEMAP: Efficient variable selection using summary data from genome-wide association studies.
+- [FINEMAP](http://www.christianbenner.com) FINEMAP Efficient variable selection using summary data from genome-wide association studies.
   
 - [polyfun](https://github.com/omerwe/polyfun) Package contains **PolyFun** for functionally-informed fine-mapping, **PolyLoc** for polygenic localization of complex trait heritability.
   
-- [OPERA](https://github.com/wuyangf7/OPERA): (omics pleiotropic association) method tests combinatorial pleiotropic associations between multiple molecular phenotypes (eQTL, DNAm) with a complex trait using summary-level data.
+- [OPERA](https://github.com/wuyangf7/OPERA) (omics pleiotropic association) method tests combinatorial pleiotropic associations between multiple molecular phenotypes (eQTL, DNAm) with a complex trait using summary-level data.
   
-- [SuSiEx](https://github.com/getian107/SuSiEx): Cross-population finemapping using summary statistics and LD reference panels.
+- [SuSiEx](https://github.com/getian107/SuSiEx) Cross-population finemapping using summary statistics and LD reference panels.
+
+## Gene prioritization
+- [PoPS](https://github.com/FinucaneLab/pops) Polygenic Priority Score (PoPS) is a gene prioritization method that leverages genome-wide signal from GWAS summary statistics and incorporates data from an extensive set of public bulk and single-cell expression datasets, curated biological pathways, and predicted protein-protein interactions. 
 
 ## HLA specific tools
 
@@ -144,7 +149,7 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 
 - [GWASBrewer](https://github.com/jean997/GWASBrewer) A flexible tool for simulating realistic GWAS summary statistics for one, or many, traits.
 
-- [magenpy](https://github.com/shz9/magenpy): A `python`-based library that provides utilities for simulating complex traits with various genetic architectures.
+- [magenpy](https://github.com/shz9/magenpy) A `python`-based library that provides utilities for simulating complex traits with various genetic architectures.
 
 ## Genomic data wrangling
 
@@ -176,9 +181,11 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 
 - [giggle](https://github.com/ryanlayer/giggle) GIGGLE indexes several BED/VCFs to perform efficient genomic interval searches across all files in the index
 
-- [magenpy](https://github.com/shz9/magenpy): A `python`-based library that provides utilities for interfacing with genotype data (BED format), computing large-scale LD matrices, harmonizing various GWAS data sources (genotypes, LD, sumstats, annotations), and simulating complex traits.
+- [magenpy](https://github.com/shz9/magenpy) A `python`-based library that provides utilities for interfacing with genotype data (BED format), computing large-scale LD matrices, harmonizing various GWAS data sources (genotypes, LD, sumstats, annotations), and simulating complex traits.
 
-- [sgkit](https://sgkit-dev.github.io/sgkit): Statistical genetics toolkit (population statistics, GWAS, LD, relatedness) in Python built on top of general purpose multi-dimensinoal array and distributing computing libraries (Xarray, Pandas, Zarr, Dask).
+- [sgkit](https://sgkit-dev.github.io/sgkit) Statistical genetics toolkit (population statistics, GWAS, LD, relatedness) in Python built on top of general purpose multi-dimensinoal array and distributing computing libraries (Xarray, Pandas, Zarr, Dask).
+  
+- [DENTIST](https://github.com/Yves-CHEN/DENTIST) (Detecting Errors iN analyses of summary staTISTics) is a QC tool for summary-level data from GWAS. It leverages the difference between the observed GWAS test-statistic of a variant and its predicted value (using the neighbouring variants and linkage equilibrium (LD) data from a reference panel) to remove problematic variants.) 
 
 ## Polygenic scores
 
@@ -193,6 +200,8 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 - [DPR](https://github.com/biostatpzeng/DPR) DPR is a Bayesian PRS method that uses a non-parametric dirichlet process prior
   
 - [VIPRS](https://github.com/shz9/viprs) VIPRS is a fast Bayesian PRS method that uses Variational Inference techniques to efficiently approximate the posterior for the effect sizes. The python package provides utilities for performing inference as well as computing polygenic scores and common evaluation metrics used in PRS settings.
+  
+- [PRS-CSx](https://github.com/getian107/PRScsx) PRS-CSx integrates GWAS summary statistics and external LD reference panels from multiple populations to improve cross-population polygenic prediction. Posterior SNP effect sizes are inferred under coupled continuous shrinkage (CS) priors across populations.
 
 ## Pharmacogenomics
 
