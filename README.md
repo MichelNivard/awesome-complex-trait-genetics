@@ -127,7 +127,7 @@ How can you add your tool? via a pull request, if you dont know what that is, re
 - [SuSiEx](https://github.com/getian107/SuSiEx) Cross-population finemapping using summary statistics and LD reference panels.
 
 ## Gene prioritization
-- [PoPS](https://github.com/FinucaneLab/pops) Polygenic Priority Score (PoPS) PoPS is a gene prioritization method that leverages genome-wide signal from GWAS summary statistics and incorporates data from an extensive set of public bulk and single-cell expression datasets, curated biological pathways, and predicted protein-protein interactions. 
+- [PoPS](https://github.com/FinucaneLab/pops) Polygenic Priority Score (PoPS) is a gene prioritization method that leverages genome-wide signal from GWAS summary statistics and incorporates data from an extensive set of public bulk and single-cell expression datasets, curated biological pathways, and predicted protein-protein interactions. 
 
 ## HLA specific tools
 
